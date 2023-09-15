@@ -1,0 +1,55 @@
+
+
+body{
+    font-family: 'Karla', sans-serif;
+font-family: 'Poppins', sans-serif;
+background-image: url("./download.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+text-align:center;
+color:rgb(255, 0, 0);
+text-shadow:0px 0px 10px rgb(2, 47, 243);   
+}
+.btn{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    
+}
+.btn button{
+    font-size: 20px;
+    font-weight: 600;
+    width:30px;
+    border-radius:5px;
+    background-color: rgb(23, 5, 104);
+    color:white;
+    box-shadow:0px 0px 10px rgb(255, 0, 0);
+}
+#save{
+    width:90px;
+    margin-top:30px;
+    background-color: rgb(247, 7, 7);
+    color:white;
+    font-size:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px blue;
+}
+.reset{
+    width:90px;
+    margin-top:30px;
+    background-color: rgb(247, 7, 7);
+    color:white;
+    font-size:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px blue;
+}
+
+.entries{
+    font-size:25px;
+    color:#ff4800;
+    text-shadow: none;
+    position: static;
+    text-wrap: wrap;
+}
